@@ -79,6 +79,7 @@ header {
   line-height: 1.2;
   padding-top: 25px;
   padding-bottom: 25px;
+  border: 1px solid #ececec;
 }
 
 .container-header {
@@ -358,8 +359,8 @@ header {
 .section-elements p {
   font-size: 16px;
   line-height: 1.9;
-  text-align: center;
-  margin-bottom: 20px;
+  text-align: left;
+  margin: 0px 24px 20px;
 }
 
 .section-elements li {
@@ -367,7 +368,8 @@ header {
 }
 
 .section-elements h3 {
-  text-align: center;
+  text-align: left;
+  margin: 20px 24px 4px;
 }
 .list-item {
   border: 1px solid #eeeeee;
