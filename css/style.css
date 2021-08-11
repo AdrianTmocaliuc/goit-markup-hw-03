@@ -334,9 +334,14 @@ header {
   flex-wrap: wrap;
 }
 
-.list-item:nth-last-child(n + 4) {
+.list-item {
+  width: calc((100% - 60px) / 3);
+  margin-right: 30px;
+}
+/* .list-item:nth-last-child(n + 4) {
   margin-bottom: 30px;
 }
+*/
 
 .section-elements li:not(:last-child) {
   margin-right: 30px;
@@ -361,11 +366,14 @@ header {
 
 .section-elements li {
   background: #ffffff;
-  /* border: 1px solid #eeeeee; */
 }
 
 .section-elements h3 {
   text-align: center;
+}
+.list-item {
+  /* border: 1px solid #eeeeee; */
+  /* width: 370px; */
 }
 
 /*-------------------------------  footer section ------------------------------- */
