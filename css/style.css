@@ -21,6 +21,14 @@ body {
   letter-spacing: 0.03em;
 }
 
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .link {
   text-decoration: none;
 }
@@ -38,10 +46,6 @@ body {
   /* width: 1600px; */
 }
 
-/* section {
-  margin-bottom: 94px;
-} */
-
 img {
   display: block;
 }
@@ -52,7 +56,6 @@ header {
   letter-spacing: 0.02em;
   font-size: 14px;
   line-height: 1.2;
-  width: 1170px;
   margin-right: auto;
   margin-left: auto;
   outline: 1px solid red;
@@ -92,23 +95,19 @@ header {
 .hero {
   background-color: #2f303a;
   height: 600px;
-  /* margin-bottom: 94px; */
 }
 .conteiner-hero {
   margin-right: auto;
   margin-left: auto;
-  width: 696px;
   text-align: center;
 }
 .hero-main-title {
   color: #fff;
   text-transform: uppercase;
   font-weight: 900;
-  /* width: 696px; */
   font-size: 44px;
   line-height: 1.4;
   letter-spacing: 0.06em;
-  margin: 0;
   margin-bottom: 30px;
 }
 
@@ -138,7 +137,6 @@ header {
 .section-list p {
   font-size: 14px;
   line-height: 1.7;
-  margin-top: 0;
 }
 
 .section-title.description {
@@ -149,10 +147,7 @@ header {
   margin-bottom: 10px;
 }
 
-.section:nth-child(2n + 3) {
-  background: #f5f4fa;
-}
-/* .section.team {
+/* .section:nth-child(2n) {
   background: #f5f4fa;
 } */
 
@@ -180,7 +175,6 @@ header {
 }
 .section.team,
 .section.offer {
-  margin: 0;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -241,14 +235,10 @@ section.offer {
 .section-elements p {
   font-size: 16px;
   line-height: 1.9;
-  margin-top: 0;
 }
 
 .list-item:nth-last-child(n + 4) {
   margin-bottom: 30px;
-}
-.list-item p {
-  margin-bottom: 0;
 }
 
 /*-------------------------------  footer section ------------------------------- */
