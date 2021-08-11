@@ -318,7 +318,7 @@ header {
 }
 
 .section-offer {
-  background: #e5e5e5;
+  background: #fff;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -336,12 +336,10 @@ header {
 
 .list-item {
   width: calc((100% - 60px) / 3);
-  margin-right: 30px;
 }
-/* .list-item:nth-last-child(n + 4) {
+.list-item:nth-last-child(n + 4) {
   margin-bottom: 30px;
 }
-*/
 
 .section-elements li:not(:last-child) {
   margin-right: 30px;
@@ -372,7 +370,7 @@ header {
   text-align: center;
 }
 .list-item {
-  /* border: 1px solid #eeeeee; */
+  border: 1px solid #eeeeee;
   /* width: 370px; */
 }
 
