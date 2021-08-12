@@ -135,14 +135,14 @@ header {
 .header-nav li:not(:last-child) {
   margin-right: 50px;
 }
+.header-contact li:not(:last-child) {
+  margin-right: 50px;
+}
+
 .header-contact {
   display: flex;
   align-items: center;
   margin-left: auto;
-}
-
-.header-mail {
-  margin-right: 50px;
 }
 
 /*------------------------------- Hero section -------------------------------*/
