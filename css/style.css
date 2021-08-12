@@ -333,24 +333,27 @@ header {
 .section-elements {
   display: flex;
   flex-wrap: wrap;
+  /* margin-right: -30px; */
+  /* margin-bottom: -30px; */
 }
 
 .list-item {
-  width: calc((100% - 60px) / 3);
+  /* margin-right: 30px; */
+  /* margin-bottom: 30px; */
+  /* width: calc((100% - 60px) / 3); */
 }
 .list-item:nth-last-child(n + 4) {
   margin-bottom: 30px;
 }
 
-.section-elements li:not(:last-child) {
+.section-elements li:not(:nth-child(3n)) {
   margin-right: 30px;
 }
 
 .section-elements li:nth-child(3n) {
   margin-right: 0;
 }
-
-.section-element-title {
+*/ .section-element-title {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
